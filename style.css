@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    padding: 1rem;
+}
+#search_form{
+    margin-top: 15px;
+}
+input{
+    font-size: 120%;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+input[type=submit]:hover{
+    background-color: black;
+    color:white;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.emoji{
+    font-size: 300%;
+    width: 8rem;
+    max-width: 8rem;
+}
+
+.aliases{
+    text-transform: capitalize;
+    font-size: 125%;
+}
+
+.desc{
+    font-size: 125%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr, td{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
